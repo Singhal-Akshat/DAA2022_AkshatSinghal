@@ -24,7 +24,7 @@ class Binary_Search
 
         while(lower<higher)
         {   
-            int mid  = (higher + lower)/2;
+            int mid  = lower + (higher - lower)/2;
             if(A[mid]==key)
             {
                 return mid;
